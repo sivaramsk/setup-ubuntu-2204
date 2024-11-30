@@ -4,3 +4,4 @@
   roles: 
     - role: 'roles/update-system'
     - role: 'roles/install-packages'
+    - role: 'google-chrome-browser'

@@ -1,0 +1,4 @@
+# Install a role from GitHub
+- name: google-chrome-browser
+  src: https://github.com/darkwizard242/ansible-role-googlechrome.git
+
