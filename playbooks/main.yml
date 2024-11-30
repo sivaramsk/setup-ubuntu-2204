@@ -1,0 +1,6 @@
+# roles/example/tasks/main.yml
+- hosts: localhost
+  become: yes
+  roles: 
+    - role: 'roles/update-system'
+    - role: 'roles/install-packages'
